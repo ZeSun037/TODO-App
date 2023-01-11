@@ -1,0 +1,15 @@
+Index: .idea/pythonProject.iml
+===================================================================
+diff --git a/.idea/pythonProject.iml b/.idea/pythonProject.iml
+--- a/.idea/pythonProject.iml	
++++ b/.idea/pythonProject.iml	
+@@ -4,7 +4,7 @@
+     <content url="file://$MODULE_DIR$">
+       <excludeFolder url="file://$MODULE_DIR$/venv" />
+     </content>
+-    <orderEntry type="jdk" jdkName="Python 3.11 (pythonProject)" jdkType="Python SDK" />
++    <orderEntry type="inheritedJdk" />
+     <orderEntry type="sourceFolder" forTests="false" />
+   </component>
+ </module>
+\ No newline at end of file
