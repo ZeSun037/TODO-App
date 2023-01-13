@@ -1,5 +1,5 @@
 import time
-import function
+import functions
 # Press the green button in the gutter to run the script.
 now = time.strftime("%b %d, %Y %H:%M:%S")
 print("It is", now)
