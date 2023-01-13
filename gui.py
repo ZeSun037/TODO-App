@@ -7,6 +7,8 @@ from PySimpleGUI import __version__
 
 import time
 
+sg.theme("Black")
+
 if not os.path.exists("todos.txt"):
     with open("todos.txt", "w") as file:
         pass
