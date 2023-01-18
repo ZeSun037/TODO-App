@@ -2,6 +2,10 @@ import os
 
 file_path = 'todos.txt'
 
+if not os.path.exists("todos.txt"):
+    with open("todos.txt", "w") as file:
+        pass
+
 def get_todos(file=file_path):
     with open(file, 'r') as file_local:
         todos_local = file_local.readlines()
